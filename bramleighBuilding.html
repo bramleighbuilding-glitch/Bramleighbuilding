@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bramleigh Building</title>
+    
+    <style>
+        div {
+            background-color: #F0F0F0;
+            padding: 5%;
+            border-radius: 3%;
+            border-bottom: 3px solid #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            position: sticky;
+            top: 0;
+            background-color: #FFBE0C;
+            color: #000000;
+            text-align: center;
+            padding: 4%;
+            font-size: 150%;
+        }
+        p {
+            font-size: 90%;
+            color:#000000
+        }
+    .button-container {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        background-color: #ffffff;
+        padding: 20px;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #FFBE0C;
+        color: #000000;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: bold;
+    }
+
+    .button:hover {
+        background-color: #000000;
+        color: #FFBE0C;
+    }
+    footer {
+        background-color: #FFBE0C;
+        color: #000000;
+        text-align: center;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+    }
+    
+    @media screen and (max-width: 600px) {
+        body {
+           margin: 0;
+        }
+
+        div {
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+       .header {
+            padding: 30px 12px;
+            z-index: 1000;
+       }
+
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+            line-height: 1.2;
+       }
+
+        h2 {
+            font-size: 20px;
+            margin: 5px 0;
+           text-align: center;
+        }
+
+       p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+       .email-container {
+            padding: 18px;
+        }
+
+        .email {
+            padding: 14px 28px;
+            font-size: 17px;
+            border-radius: 6px;
+         }
+
+        footer {
+            padding: 15px;
+            font-family: Arial, sans-serif;
+        }
+
+        footer p {
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        .button-container {
+        flex-direction: column;
+        align-items: center;
+        }
+
+        .button {
+            width: 200px;
+            text-align: center;
+        }
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="header" id="myHeader">
+        <h1>Bramleigh Building Services</h1>
+    </div>
+    <div>
+    <h2>Now accepting new clients!</h2>
+    </div>
+    <div>
+        <p>We're a small family business with a hard working team working magic, building extensions, working with steel work and more. We're based in Keyworth, Nottingham but have done jobs in Lenton, Mapperley and West Bridgford along with other surrounding areas.</p>
+    </div>
+    <div class="button-container">
+        <a class="button" href="tel:+447958643944">Call Us</a>
+
+        <a class="button" href="mailto:bramleighbuilding@gmail.com">
+            Email Us
+        </a>
+
+        <a class="button" href="gallery.html">Our Work</a>
+    </div>
+    <footer>
+        <p style="text-align: center;">&copy; 2014 Bramleigh Building Services Ltd. All rights reserved.</p>
+    </footer>
+</body>
+</html>
